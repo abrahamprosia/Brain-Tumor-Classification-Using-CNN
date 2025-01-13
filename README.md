@@ -10,34 +10,50 @@ In this project, I developed a model to classify brain MRI images into four cate
 ## Results
 - The model achieved a test accuracy of 94%.
 - The test loss was measured at 1.02.
-- 
-Classification Report for Training Data:
-              precision    recall  f1-score   support
+  
+### Performance Metrics
+The model demonstrated strong performance on both training and validation datasets.  
 
-      glioma       1.00      0.99      0.99      1061
-  meningioma       0.98      1.00      0.99      1072
-     notumor       1.00      0.99      0.99      1288
-   pituitary       1.00      1.00      1.00      1149
+#### Training Data:
+- **Accuracy**: 99%  
+- **Precision**: 0.99  
+- **Recall**: 0.99  
+- **F1-Score**: 0.99  
 
-    accuracy                           0.99      4570
-   macro avg       0.99      0.99      0.99      4570
-weighted avg       0.99      0.99      0.99      4570
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Glioma       | 1.00      | 0.99   | 0.99     | 1061    |
+| Meningioma   | 0.98      | 1.00   | 0.99     | 1072    |
+| No Tumor     | 1.00      | 0.99   | 0.99     | 1288    |
+| Pituitary    | 1.00      | 1.00   | 1.00     | 1149    |
 
+#### Validation Data:
+- **Accuracy**: 94%  
+- **Precision**: 0.94  
+- **Recall**: 0.94  
+- **F1-Score**: 0.94  
 
-Classification Report for Validation Data:
-              precision    recall  f1-score   support
+| Class        | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| Glioma       | 0.93      | 0.93   | 0.93     | 260     |
+| Meningioma   | 0.89      | 0.90   | 0.89     | 267     |
+| No Tumor     | 0.98      | 0.93   | 0.95     | 307     |
+| Pituitary    | 0.96      | 0.99   | 0.97     | 308     |
 
-      glioma       0.93      0.93      0.93       260
-  meningioma       0.89      0.90      0.89       267
-     notumor       0.98      0.93      0.95       307
-   pituitary       0.96      0.99      0.97       308
+### Test Set Performance
+- **Accuracy**: 94%  
+- **Loss**: 1.02  
 
-    accuracy                           0.94      1142
-   macro avg       0.94      0.94      0.94      1142
-weighted avg       0.94      0.94      0.94      1142
+## Additional Information
+For a detailed walkthrough of the code and the complete results, please refer to the accompanying Jupyter Notebook file.  
 
-
-# To see more detailed result please see the other file which include my codes and results in jupyter notebook
+## Getting Started
+### Prerequisites
+- Python 3.x  
+- TensorFlow  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
 
 
 

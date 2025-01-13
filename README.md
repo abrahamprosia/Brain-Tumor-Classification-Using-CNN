@@ -4,12 +4,12 @@
 In this project, I developed a model to classify brain MRI images into four categories: Pituitary tumor, Glioma tumor, Meningioma tumor, and No tumor.
 
 ## Methods
-- **Model Architecture**: I used TensorFlow to build a Convolutional Neural Network (CNN) for image classification.
-- **Data Preprocessing**: Data augmentation was applied to increase the diversity of the training dataset by introducing variations to the images, such as rotation, flipping, and scaling.
+- I used TensorFlow to build a Convolutional Neural Network (CNN) for image classification.
+- Data augmentation was applied to increase the diversity of the training dataset by introducing variations to the images, such as rotation, flipping, and scaling.
 
 ## Results
-- **Test Accuracy**: The model achieved a test accuracy of 94%.
-- **Test Loss**: The test loss was measured at 1.02.
+- The model achieved a test accuracy of 94%.
+- The test loss was measured at 1.02.
 - 
 Classification Report for Training Data:
               precision    recall  f1-score   support

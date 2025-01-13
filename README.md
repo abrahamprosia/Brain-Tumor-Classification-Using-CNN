@@ -47,13 +47,6 @@ The model demonstrated strong performance on both training and validation datase
 ## Additional Information
 For a detailed walkthrough of the code and the complete results, please refer to the accompanying Jupyter Notebook file.  
 
-## Getting Started
-### Prerequisites
-- Python 3.x  
-- TensorFlow  
-- NumPy  
-- Matplotlib  
-- Scikit-learn  
 
 
 

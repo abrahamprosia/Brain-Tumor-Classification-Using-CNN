@@ -3,7 +3,7 @@
 ## Overview
 In this project, I developed a model to classify brain MRI images into four categories: Pituitary tumor, Glioma tumor, Meningioma tumor, and No tumor.
 
-For Transfer-Learning-Method-Brain-Tumor-Classification: https://github.com/abrahamprosia/Transfer-Learning-Based-Brain-Tumor-Analysis
+For Transfer Learning Method Brain Tumor Classification: https://github.com/abrahamprosia/Transfer-Learning-Based-Brain-Tumor-Analysis
 
 ## Methods
 - I used TensorFlow to build a Convolutional Neural Network (CNN) for image classification.
